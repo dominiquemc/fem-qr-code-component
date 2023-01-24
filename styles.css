@@ -1,8 +1,18 @@
-* {
+:root {
     --white: hsl(0, 0%, 100%);
     --lightgray: hsl(212, 45%, 89%);
     --grayblue: hsl(220, 15%, 55%);
     --darkblue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
