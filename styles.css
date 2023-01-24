@@ -16,12 +16,16 @@ html, body {
 }
 
 body {
-    display: flex;
     background-color: var(--lightgray);
+}
+
+main {
+    display: flex;
     font-family: 'Outfit', sans-serif;
     font-size: 0.9375rem;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .container {
@@ -30,7 +34,6 @@ body {
     background-color: var(--white);
     height: 550px;
     flex-basis: 350px;
-    align-items: center;
     border-radius: 15px;
     padding: 15px ;
 }
